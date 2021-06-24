@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+  body {
+    background-color: white;
+  }
+
+  .mainTitle {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 37px;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .midlevelTitle {
+    text-align: left;
+    color: green;
+    padding: 5px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .blockText {
+    text-align: justify;
+    color: black;
+    padding: 2px;
+    font-size: 16px;
+    font: Arial, Helvetica, sans-serif;
+  }
+
+  .buttonStyle {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .radio {
+    text-align: center;
+    color: gray;
+    margin: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .entryBoxStyle {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+
+
+</style>
+
+<head>
+  <form class='radio'>
+    Visual Preference:
+    <label> <input type='radio' name=lightmode-darkmode value=light-mode select>
+      Light</label>
+    <label> <input type='radio' name=lightmode-darkmode value=dark-mode>
+      Dark</label>
+  </form>
+</head>
+
+<body>
+  <div>
+    <h1 class="mainTitle">Title Here {{content}}</h1>
+    <h2 class="midlevelTitle">First Point</h2>
+    <hr>
+    <p class='blockText'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h2 class="midlevelTitle">Second Related Point</h2>
+    <hr>
+    <p class='blockText'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <h2 class="midlevelTitle">Third Issue</h2>
+    <hr>
+    <p class='blockText'>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+<div>
+<form>
+<input type='text' class='entryBoxStyle' placeholder="Enter your email">
+</form>
+</div>
+
+
+</body>
+
+</html>
